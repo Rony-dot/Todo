@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.EditProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="150dp"
+            android:layout_marginTop="15dp"
+            app:strokeWidth="4dp"
+            app:strokeColor="@color/colorButton"
+            >
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/user_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile_pic"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <EditText
+            android:id="@+id/et_first_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:hint="First Name"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/et_last_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:hint="Last Name"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/et_email_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:hint="Email"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_username_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:text="Username"
+            android:layout_gravity="center_horizontal"/>
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_password_old"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--            android:gravity="center"-->
+<!--            android:hint="Old Password"-->
+<!--            android:layout_gravity="center_horizontal"/>-->
+
+        <EditText
+            android:id="@+id/et_password_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:hint="New Password"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/update_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.UpdateTaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Update Task"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/editTextTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="task?" />
+
+        <EditText
+            android:id="@+id/editTextDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="description..." />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_date"
+                android:hint="Give a date"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/iv_date"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_calendar"/>
+            <ImageView
+                android:id="@+id/iv_date_close"
+                android:visibility="gone"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_close"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_time"
+                android:hint="Give a time"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/iv_time"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_watch"/>
+            <ImageView
+                android:id="@+id/iv_time_close"
+                android:visibility="gone"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_close"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxFinished"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark as finished" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="@color/colorLight" />
+
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorRed"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="@color/colorLight" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

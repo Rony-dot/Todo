@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AllTaasksFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/adapter_recyclerview_tasks"
+
+        android:layout_above="@+id/ttsField"/>
+
+    <LinearLayout
+
+        android:id="@+id/ttsField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/et_tts"
+            android:hint="Try speech to text"
+            android:layout_weight="4.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <ImageButton
+            android:id="@+id/tts_Btn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/ttsField"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorLight"
+        android:src="@drawable/ic_add"
+        android:tint="@color/colorLight"
+        app:fabSize="normal"/>
+
+</RelativeLayout>

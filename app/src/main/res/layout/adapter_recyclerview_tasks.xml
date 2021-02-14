@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:layout_weight="4"
+        android:id="@+id/textViewStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+
+        android:text="Completed"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorLight"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/del_task"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/icon_delete"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/task_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Bring Eggs"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/textViewDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bring 6 eggs from super market"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_due_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Due date: today"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_due_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Due time: 5pm"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
