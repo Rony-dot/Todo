@@ -25,3 +25,7 @@
   - It is used for fetching Random Pictures of the task from intenet
 * Free Trial
   - User can use the app freely for a certain time
+
+[user_reg_gif]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210214_154938.gif "User registration gif"
+
+![alt text][user_reg_gif]
