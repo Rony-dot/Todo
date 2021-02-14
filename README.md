@@ -27,5 +27,9 @@
   - User can use the app freely for a certain time
 
 [user_reg_gif]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210214_154938.gif "User registration gif"
+[google_auth]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210215_000204.gif "google auth gif"
 
-![alt text][user_reg_gif]
+User Registration Room | Google Auth
+-----------------------|--------------
+
+![user reg][user_reg_gif] | ![google auth][google_auth]
