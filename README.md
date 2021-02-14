@@ -29,7 +29,10 @@
 [user_reg_gif]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210214_154938.gif "User registration gif"
 [google_auth]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210215_000204.gif "google auth gif"
 
-User Registration Room | Google Auth
------------------------|--------------
+**User Registration Room** | 
+---------------------- | 
+![user reg][user_reg_gif] |
 
-![user reg][user_reg_gif] | ![google auth][google_auth]
+**Google Authentication** |
+--------------------- |
+![google auth][google_auth]
