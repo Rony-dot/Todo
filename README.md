@@ -28,11 +28,21 @@
 
 [user_reg_gif]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210214_154938.gif "User registration gif"
 [google_auth]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/20210215_000204.gif "google auth gif"
+[add_update_delete_room]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/add%20update%20delete%20room.gif
+[background_and_internet_notify]: https://github.com/Rony-dot/Todo/blob/master/Todo%20assets/background%20app%20and%20internet%20connection%20notification.gif
 
-**User Registration Room** | 
+**User Registration (Room)** | 
 ---------------------- | 
 ![user reg][user_reg_gif] |
 
 **Google Authentication** |
 --------------------- |
 ![google auth][google_auth]
+
+**Add Update Delete Task (Room)** |
+--------------------------------- |
+![add update delete][add_update_delete_room]
+
+**Background app Notification and Internet Connection Lost Notification** |
+------------------------------------------------------------------------- |
+![notification][background_and_internet_notify]
