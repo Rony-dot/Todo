@@ -17,6 +17,8 @@
 * Alarm Manager
   - Triggers the notification manager 
   - Triggers when the task time is up
+* Broadcast Receiver
+* Network Manager
 * Internet Connection check in Background
   - If the internet connection is lost, it will give a notification to the user of that
 * App Background Running
