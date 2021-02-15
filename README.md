@@ -10,6 +10,8 @@
   - Task will give the user a notification when the time triggers, even if the device is locked or in sleep mode it will wake the device screen
 * **SPEECH TO TEXT** for quick adding a task
   - user can add a task quickly by SPEECH TO TEXT facility
+* Foreground Service
+* Background Service
 * Notification Manager
   - Notify the user of the in app acitvity
 * Alarm Manager
